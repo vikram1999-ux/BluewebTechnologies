@@ -1,0 +1,74 @@
+
+
+.bg-danger{padding: 5px 14px !important;} mark {background-color: #000;color: #fff;padding: 5px 7px !important;}
+td{padding:30px !important; display:inline-block; margin-bottom:30px;}
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{color:#fff; background:#7db916 url(../images/icon1.png) no-repeat 1.1em 1.45em; padding:14px 0 12px 45px; margin:0 0 1px; border-radius:6px;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+
+/*************************************************************************************************************/
+.container-new{max-width:100% !important; padding-right:0px; padding-left:0px;margin-right: auto;margin-left: auto;}
+.container{max-width:1630px !important;}
+.container-fluid{max-width:1710px !important;}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#fff;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(0,0,0,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:999;}
+.Logo img {max-height:76px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:50px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.Logo {padding-top:20px; padding-bottom:54px;}  .shrink .Logo {padding-top:10px !important; padding-bottom:10px !important;} .shrink .Border{display:none;}
+.Homebnr .carousel-item img {
+    height: 960px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+
+}
+
+.gx-6 {margin-left:-22px!important;margin-right:-22px!important;}
+.gx-6 div[class^="col"]{padding-left:22px!important;padding-right:22px!important;}
+
+@media (min-width: 1920px) {
+}
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1600px) { 
+
+}
+
+@media (min-width: 1459.98px) and (max-width: 1559.98px) {
+
+}
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {
+}
+
+/*@include media-breakpoint-between(md, xl) { ... }*/
+@media (min-width: 991.98px) and (max-width: 1199.98px){}
+
+
+/*For example the @include media-breakpoint-only(md) { ... } will result in :*/
+@media (min-width: 768px) and (max-width: 991.98px) {.Logo{margin-left: auto;margin-right: auto;width: 25%;} .fs-40 {font-size: 25px !important;} td {padding: 10px !important;
+margin-bottom: 20px;text-shadow: 12px 0px 22px rgba(0,0,0,.105);background: rgba(255,255,255,.5);} p{background: rgba(255,255,255,.5);} .fs-80 {font-size: 50px !important;}
+}
+@media (max-width:767.98px) {.Logo{margin-left: auto;margin-right: auto;width: 50%;} .fs-40 {font-size: 25px !important;} td {padding: 10px !important;
+margin-bottom: 20px;text-shadow: 12px 0px 22px rgba(0,0,0,.105);background: rgba(255,255,255,.5);} p{background: rgba(255,255,255,.5);} .fs-80 {font-size: 50px !important;} body{font-size:20px;}}
+
+
+@media (max-width:575.98px) {
